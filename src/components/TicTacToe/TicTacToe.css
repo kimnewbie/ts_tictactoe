@@ -1,0 +1,67 @@
+.game h1 {
+    color: #787ef1;
+    padding: 10px 10px;
+    font-size: 46px;
+}
+
+.game .board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game .board .board_row {
+    display: flex;
+}
+
+.game .board .cell {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    font-weight: 700;
+    background-color: #f2f2f2;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.game .board .cell:hover {
+    background-color: inherit;
+}
+
+.game .board .cell.x {
+    color: #a60011;
+}
+
+.game .board .cell.o {
+    color: #004974;
+}
+
+.game .board .cell.x:hover,
+.game .board .cell.o:hover {
+    background-color: #9ea2e3;
+    color: #fff;
+}
+
+.game p {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.game .reset {
+    margin-top: 20px;
+    min-width: 200px;
+    border-radius: 2px;
+    border: none;
+    color: #fff
+}
+
+.game .reset:hover {
+    background-color: #787ef1;
+}
